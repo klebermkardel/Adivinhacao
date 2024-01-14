@@ -12,10 +12,12 @@ function startGame() {
 
     // Retorna o número aleatório gerado
     return getRandomNumber();
+
 }
 
 // Chama a função startGame para definir o número aleatório e as tentativas iniciais
 let randomNumber = startGame();
+console.log(randomNumber)
 
 // Função principal para adivinhar o número
 function guessNumber() {
